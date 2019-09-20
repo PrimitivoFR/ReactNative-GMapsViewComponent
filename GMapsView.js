@@ -1,7 +1,5 @@
 import React from 'react';
 import { StyleSheet, Text, View,ImageBackground, Dimensions, WebView,Linking,TouchableOpacity} from 'react-native';
-import {Card} from 'react-native-paper';
-import Icon from 'react-native-vector-icons/MaterialCommunityIcons';
 
 class GMapsView extends React.Component {
 	
