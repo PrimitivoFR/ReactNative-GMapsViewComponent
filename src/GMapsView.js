@@ -1,5 +1,5 @@
 import React from 'react';
-import { StyleSheet, Text, View,ImageBackground, Dimensions, WebView,Linking,TouchableOpacity} from 'react-native';
+import { StyleSheet, WebView,Linking,TouchableOpacity} from 'react-native';
 
 class GMapsView extends React.Component {
 	
@@ -35,6 +35,7 @@ class GMapsView extends React.Component {
     return (
     <TouchableOpacity onPress={() => Linking.openURL(this.props.gmaps)}>
       <WebView 
+        useWebKit={true}
       	originWhitelist={['*']}
       	style={{height:100,width:'100%'}}
         source={{ html: '<iframe width="100%" height="100%" src="https://maps.google.com/maps?width=100%&amp;height=600&amp;hl=en&amp;q='+this.strFIN+'+(My%20Business%20Name)&amp;ie=UTF8&amp;t=&amp;z=14&amp;iwloc=B&amp;output=embed" style="border:0;" allowfullscreen="" frameborder="0" ></iframe>' }}

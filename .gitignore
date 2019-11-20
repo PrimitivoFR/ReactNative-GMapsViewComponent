@@ -1,0 +1,6 @@
+*.log
+npm-debug.log
+tmp
+build
+dist
+node_modules

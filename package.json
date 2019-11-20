@@ -1,0 +1,31 @@
+{
+  "name": "react-native-gmapsview",
+  "version": "1.0.0",
+  "description": "A ReactNative component which allows you to generate a custom GMaps iframe for any postal address",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AppliNH/ReactNative-GMapsViewComponent.git"
+  },
+  "keywords": [
+    "react-native",
+    "gmaps",
+    "google-maps",
+    "iframe",
+    "embed",
+    "android",
+    "ios"
+  ],
+  "author": "Thomas Martin (AppliNH - Primitivo)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/AppliNH/ReactNative-GMapsViewComponent/issues"
+  },
+  "homepage": "https://github.com/AppliNH/ReactNative-GMapsViewComponent#readme",
+  "devDependencies": {
+    "metro-react-native-babel-preset": "^0.57.0"
+  }
+}
