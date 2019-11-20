@@ -6,7 +6,7 @@ A ReactNative component which allows you to generate a custom GMaps iframe for a
 # How Do I Use This ?
 Just paste this only .js file in your React Native project, and import the component where you wanna use it.
 
-    import GMapsView from '../yourpath';
+    import { GMapsView } from 'react-native-gmapsview';
 # Props
  - **address** : the postal address you want the marker to point to
  - **gMaps** : the gmaps link of this address, in case the user clicks on the iframe, it opens up Google Maps.
