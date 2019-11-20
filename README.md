@@ -7,4 +7,7 @@ Just paste this only .js file in your React Native project, and import the compo
     import GMapsView from '../yourpath';
 # Props
  - **address** : the postal address you want the marker to point to
- - **gmaps** : the gmaps link of this address, in case the user clicks on the iframe, it opens up Google Maps.
+ - **gMaps** : the gmaps link of this address, in case the user clicks on the iframe, it opens up Google Maps.
+ # Example
+
+    <GmapsView address="24 rue des poules, 67000 Strasbourg" gMaps="https://g.page/bluemoonstrasbourg?share" />
