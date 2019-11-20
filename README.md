@@ -3,6 +3,8 @@ A ReactNative component which allows you to generate a custom GMaps iframe for a
 
 ![Screenshot](https://i.ibb.co/cJLj2v5/Screenshot-20191120-171759-01.jpg)
 
+    npm i react-native-gmapsview
+
 # How Do I Use This ?
 Just paste this only .js file in your React Native project, and import the component where you wanna use it.
 
