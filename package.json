@@ -1,6 +1,6 @@
 {
   "name": "react-native-gmapsview",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A ReactNative component which allows you to generate a custom GMaps iframe for any postal address",
   "main": "index.js",
   "scripts": {
